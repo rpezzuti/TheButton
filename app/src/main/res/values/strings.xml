@@ -12,4 +12,9 @@
     <string name="new_text_hint">New Message</string>
     <string name="set_picture">Set Picture</string>
     <string name="picture_text">Pick your picture!</string>
+    <string name="text_sound">Pick your sound!</string>
+    <string name="text_meep_merp">Meep Merp</string>
+    <string name="btn_choose">Choose</string>
+    <string name="text_glass">Glass</string>
+    <string name="text_chimes">Chimes</string>
 </resources>

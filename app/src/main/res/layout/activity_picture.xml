@@ -6,12 +6,11 @@
     android:layout_height="match_parent"
     tools:context=".PictureActivity">
 
-
     <TextView
-        android:id="@+id/image_message"
+        android:id="@+id/text_image"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:text="@string/picture_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,22 +22,118 @@
         android:layout_height="128dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/heart"
+        android:layout_marginTop="8dp"
         android:onClick="picHeart"
+        android:src="@drawable/heart"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_message" />
+        app:layout_constraintTop_toBottomOf="@+id/text_image" />
+
+    <ImageView
+        android:id="@+id/image_awesome"
+        android:layout_width="143dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:onClick="picAwesome"
+        android:src="@drawable/awesome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_heart" />
+
+    <ImageView
+        android:id="@+id/image_imaball"
+        android:layout_width="143dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:onClick="picIAmBall"
+        android:src="@drawable/im_a_ball"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_awesome" />
+
+    <ImageView
+        android:id="@+id/image_sorry"
+        android:layout_width="143dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:onClick="picSorry"
+        android:src="@drawable/sorry"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_imaball" />
+
+    <ImageView
+        android:id="@+id/image_sprout"
+        android:layout_width="143dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="8dp"
+        android:onClick="picSprout"
+        android:src="@drawable/sprout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_sorry" />
 
     <ImageView
         android:id="@+id/image_fu"
         android:layout_width="143dp"
         android:layout_height="128dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
         android:layout_marginRight="32dp"
         android:onClick="picFinger"
         android:src="@drawable/fuck_you"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/image_message" />
+        app:layout_constraintTop_toBottomOf="@+id/text_image" />
+
+    <ImageView
+        android:id="@+id/image_stop"
+        android:layout_width="143dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="picStop"
+        android:src="@drawable/stop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_fu" />
+
+    <ImageView
+        android:id="@+id/image_troll"
+        android:layout_width="143dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="picTroll"
+        android:src="@drawable/troll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_stop" />
+
+    <ImageView
+        android:id="@+id/image_yes"
+        android:layout_width="143dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="picYes"
+        android:src="@drawable/yes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_troll" />
+
+    <ImageView
+        android:id="@+id/image_tongue"
+        android:layout_width="143dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:onClick="picTongue"
+        android:src="@drawable/tongue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_yes" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

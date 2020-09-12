@@ -9,24 +9,29 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    MediaPlayer mp;
+    MediaPlayer temp;
+
+    public static int x = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
 
     public void makeSound(View view) {
-        mp = MediaPlayer.create(this, R.raw.meepmerp);
-        mp.start();
 
-
-        try {
-            Thread.sleep(1000);
-        } catch (Exception ex) {
-            ex.printStackTrace();
+        if (x == 0) {
+            temp = MediaPlayer.create(this, R.raw.meepmerp);
+            temp.start();
         }
+
+        else {
+            SoundActivity.mp.start();
+        }
+
+
 
         Intent intent = new Intent (this, SecondActivity.class);
         startActivity(intent);

@@ -25,6 +25,7 @@ public class SecondActivity extends AppCompatActivity {
         mThePicture = findViewById(R.id.mainPicture);
 
         mTheMessage.setText(TextActivity.message);
+        mTheMessage.setTextSize(44.0f);
         mThePicture.setImageDrawable(PictureActivity.picture);
 
         if (mThePicture.getDrawable() == null) {
