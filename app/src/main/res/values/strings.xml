@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">The Button</string>
+    <string name="welcome">Welcome!</string>
+    <string name="try_me">Try Me!</string>
+    <string name="welcome_bitch">Lick my fucking BALLS BITCH !! :d</string>
+    <string name="change_text">Change Text</string>
+    <string name="change_picture">Change Picture</string>
+    <string name="change_sound">Change Sound</string>
+    <string name="button_go">Go!</string>
+    <string name="home">Home</string>
+    <string name="button_change">Change</string>
+    <string name="new_text_hint">New Message</string>
+    <string name="set_picture">Set Picture</string>
+    <string name="picture_text">Pick your picture!</string>
+</resources>
