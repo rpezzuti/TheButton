@@ -9,15 +9,13 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    MediaPlayer temp;
-
     public static int x = 0;
+    MediaPlayer temp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
     public void makeSound(View view) {
@@ -30,8 +28,6 @@ public class MainActivity extends AppCompatActivity {
         else {
             SoundActivity.mp.start();
         }
-
-
 
         Intent intent = new Intent (this, SecondActivity.class);
         startActivity(intent);

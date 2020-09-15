@@ -10,8 +10,7 @@ import android.widget.TextView;
 
 public class TextActivity extends AppCompatActivity {
 
-
-    private TextView mCurrentText, mFetch;
+    private TextView mCurrentText;
     private EditText mNewText;
     public static String message = "Hello!";
 
@@ -20,12 +19,10 @@ public class TextActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_text);
 
-        mFetch = findViewById(R.id.mainText);
         mCurrentText = findViewById(R.id.currentText);
         mCurrentText.setText(message);
         mNewText = findViewById(R.id.newText);
     }
-
 
     public void changeText (View v) {
         message = mNewText.getText().toString();
