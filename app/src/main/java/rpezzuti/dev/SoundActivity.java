@@ -24,7 +24,7 @@ public class SoundActivity extends AppCompatActivity {
     }
 
     public void btnMeep(View view) {
-        MainActivity.x = 1;
+        MainActivity.mediaInit = 1;
         mp = MediaPlayer.create(this, R.raw.meepmerp);
         Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
@@ -36,10 +36,33 @@ public class SoundActivity extends AppCompatActivity {
     }
 
     public void btnChimes(View view) {
-        MainActivity.x = 1;
+        MainActivity.mediaInit = 1;
         mp = MediaPlayer.create(this, R.raw.chimes);
         Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
 
+    public void soundFart(View view) {
+        mp2 = MediaPlayer.create(this, R.raw.fart);
+        mp2.start();
+    }
+
+    public void btnFart(View view) {
+        MainActivity.mediaInit = 1;
+        mp = MediaPlayer.create(this, R.raw.fart);
+        Intent intent = new Intent(this, HomeActivity.class);
+        startActivity(intent);
+    }
+
+    public void soundTeehee(View view) {
+        mp2 = MediaPlayer.create(this, R.raw.teehee);
+        mp2.start();
+    }
+
+    public void btnTeehee(View view) {
+        MainActivity.mediaInit = 1;
+        mp = MediaPlayer.create(this, R.raw.teehee);
+        Intent intent = new Intent(this, HomeActivity.class);
+        startActivity(intent);
+    }
 }

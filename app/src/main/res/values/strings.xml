@@ -17,4 +17,7 @@
     <string name="btn_choose">Choose</string>
     <string name="text_glass">Glass</string>
     <string name="text_chimes">Chimes</string>
+    <string name="text_fart">Fart</string>
+    <string name="text_teehee">Teehee</string>
+    <string name="image_play_clip">Play Clip</string>
 </resources>

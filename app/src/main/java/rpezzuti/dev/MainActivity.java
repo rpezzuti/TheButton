@@ -9,7 +9,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static int x = 0;
+    public static int mediaInit = 0;
     MediaPlayer temp;
 
     @Override
@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void makeSound(View view) {
-
-        if (x == 0) {
+        
+        if (mediaInit == 0) {
             temp = MediaPlayer.create(this, R.raw.meepmerp);
             temp.start();
         }
