@@ -1,23 +1,35 @@
 <resources>
+
+    <!-- Init -->
     <string name="app_name">The Button</string>
-    <string name="welcome">Welcome!</string>
-    <string name="try_me">Try Me!</string>
-    <string name="welcome_bitch">Lick my fucking BALLS BITCH !! :d</string>
-    <string name="change_text">Change Text</string>
-    <string name="change_picture">Change Picture</string>
-    <string name="change_sound">Change Sound</string>
-    <string name="button_go">Go!</string>
-    <string name="home">Home</string>
-    <string name="button_change">Change</string>
-    <string name="new_text_hint">New Message</string>
     <string name="set_picture">Set Picture</string>
-    <string name="picture_text">Pick your picture!</string>
+    <string name="picture_text">Choose your picture!</string>
+    <string name="image_play_clip">Play Clip</string>
+
+
+    <!-- Buttons -->
+    <string name="btn_change_text">Change Text</string>
+    <string name="btn_change_picture">Change Picture</string>
+    <string name="btn_change_sound">Change Sound</string>
+    <string name="btn_home">Home</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_go">Go!</string>
+    <string name="btn_choose">Choose</string>
+
+    <!-- Text -->
     <string name="text_sound">Pick your sound!</string>
     <string name="text_meep_merp">Meep Merp</string>
-    <string name="btn_choose">Choose</string>
     <string name="text_glass">Glass</string>
     <string name="text_chimes">Chimes</string>
     <string name="text_fart">Fart</string>
     <string name="text_teehee">Teehee</string>
-    <string name="image_play_clip">Play Clip</string>
+    <string name="text_welcome">Welcome!</string>
+    <string name="text_try_me">Try Me!</string>
+
+    <!-- Messages -->
+    <string name="text_home_intro">Adjust the button parameters below</string>
+
+    <!-- Hints -->
+    <string name="hint_new_message">Enter New Message</string>
+
 </resources>

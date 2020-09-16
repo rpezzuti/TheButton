@@ -3,7 +3,6 @@ package rpezzuti.dev;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.Picture;
 import android.os.Bundle;
 import android.view.View;
 

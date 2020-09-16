@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Stock -->
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
 
+    <!-- Other -->
     <color name="colorRed">#DF2475</color>
+    <color name="colorNavy">#1B4E9A</color>
+
+    <!-- Favorites -->
+    <color name="favPurple">#8D8ADC</color>
+
 </resources>

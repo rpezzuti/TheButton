@@ -17,6 +17,8 @@ public class PictureActivity extends AppCompatActivity {
         setContentView(R.layout.activity_picture);
     }
 
+
+    // do a getResource() or getView() id call and then write a switch case to determine the sound?
     public void picHeart(View view) {
         picture = getResources().getDrawable(R.drawable.heart);
         Intent intent = new Intent(this, HomeActivity.class);

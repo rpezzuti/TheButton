@@ -4,27 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
+    tools:context=".HomeActivity"
+    android:background="@color/favPurple">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104dp"
+        android:gravity="center_horizontal"
+        android:text="@string/text_home_intro"
+        android:textAlignment="center"
+        android:textColor="@color/colorNavy"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/changeText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="@string/change_text"
+        android:layout_marginTop="228dp"
         android:onClick="textActivity"
+        android:text="@string/btn_change_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/text_home" />
 
     <Button
         android:id="@+id/changePicture"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:text="@string/change_picture"
+        android:layout_marginTop="48dp"
         android:onClick="pictureActivity"
+        android:text="@string/btn_change_picture"
         app:layout_constraintStart_toStartOf="@+id/changeText"
         app:layout_constraintTop_toBottomOf="@+id/changeText" />
 
@@ -32,9 +47,9 @@
         android:id="@+id/changeSound"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
-        android:text="@string/change_sound"
+        android:layout_marginTop="60dp"
         android:onClick="soundActivity"
+        android:text="@string/btn_change_sound"
         app:layout_constraintStart_toStartOf="@+id/changeText"
         app:layout_constraintTop_toBottomOf="@+id/changePicture" />
 
@@ -43,7 +58,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:text="@string/button_go"
+        android:text="@string/btn_go"
         android:onClick="startButton"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
