@@ -25,8 +25,8 @@ public class PictureActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void picFinger(View view) {
-        picture = getResources().getDrawable(R.drawable.fuck_you);
+    public void picMissYou(View view) {
+        picture = getResources().getDrawable(R.drawable.i_miss_you);
         Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
